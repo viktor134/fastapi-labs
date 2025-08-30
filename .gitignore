@@ -1,0 +1,61 @@
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment (FastApi directory)
+FastApi/
+
+# Common venv names
+.env
+.venv
+env/
+venv/
+ENV/
+.Python
+
+# FastAPI / local databases
+*.db
+*.sqlite3
+instance/
+*.pid
+
+# Logs
+*.log
+
+# Testing & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+htmlcov/
+
+# Build & packaging
+dist/
+build/
+*.egg-info/
+.eggs/
+
+# Editor & IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# Docker
+*.tar
+*.bak
+docker-compose.override.yml
+
+# Local environment configs
+.env.local
+.env.dev
+.env.prod
+
+# Pyenv virtual environment configuration
+pyvenv.cfg
